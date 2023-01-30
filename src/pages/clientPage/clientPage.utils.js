@@ -1,0 +1,53 @@
+import ShortUniqueId from 'short-unique-id';
+const uid = new ShortUniqueId({ length: 5 });
+
+export const mockdata = [
+  {
+    key: uid(),
+    name: 'Abdul Musa',
+    phone: '08053537896',
+    type: 'Individual',
+    joined: '20/03/2022',
+    dailyLimit: '1000',
+    email: 'loremipsom@gmail.com',
+    monthlyLimit: '30000',
+    status: 'Active',
+    address: 'maitama, Abuja.',
+  },
+  {
+    key: uid(),
+    name: 'AA Rano',
+    phone: '09093533896',
+    email: 'aarano@hello.com',
+    type: 'Organization',
+    joined: '20/03/2022',
+    dailyLimit: '1000',
+    monthlyLimit: '30000',
+    status: 'Active',
+    address: 'maitama, Abuja.',
+  },
+  {
+    key: uid(),
+    name: 'Abaz and Sons Ltd',
+    phone: '08053537896',
+    email: 'abazandsons@willit.com',
+    type: 'Organization',
+    joined: '20/03/2022',
+    dailyLimit: '1000',
+    monthlyLimit: '30000',
+    status: 'Active',
+    address: 'maitama, Abuja.',
+  },
+  {
+    key: uid(),
+    name: 'Steve Anas',
+    phone: '08053537896',
+    email: 'steveanas@yahoo.com',
+    type: 'Individual',
+    joined: '20/03/2022',
+    dailyLimit: '5000',
+    monthlyLimit: '25000',
+    status: 'Blocked',
+    address: 'maitama, Abuja.',
+  },
+];
